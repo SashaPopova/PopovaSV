@@ -1,0 +1,96 @@
+/* Сброс стилей браузера */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1.2;
+}
+ol { 
+    padding-left: 1.4em;
+    list-style: decimal;
+}
+ul {
+    padding-left: 1.4em;
+    list-style: square;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+} 
+/* Конец кода сброса стилей браузера */
+
+body {
+    font-size: 62.5%;
+}
+.content {
+    margin-left: 15px;
+    margin-top: 15px;
+    border: 1px dashed #999;
+    border-right: none;
+    border-bottom: none;
+}
+.gallery {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 30px; 
+    margin-bottom: 50px; 
+}
+.figure {
+    border: 5px solid #999; 
+    border-radius: 0; 
+    text-align: center; 
+    padding: 15px; 
+    background-color: rgba(255, 255, 255, 0.9); 
+    position: relative; 
+    width: calc(33.33% - 20px); 
+    box-sizing: border-box; 
+}
+.figure img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    width: 250px; 
+    height: 250px; 
+}
+figcaption {
+    font-size: 1.5em; 
+    margin-top: 15px; 
+    color: #666; 
+    position: absolute; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    top: 100%; 
+    white-space: nowrap; 
+}
+h1 {
+    font: normal 2.8em Verdana, Arial, Helvetica, sans-serif;
+    margin: 0;
+    border-bottom: 1px dashed #999;
+    padding: 5px 0 5px 8px;
+    color: #14556b;
+}
+p {
+    font: 1.8em/160% Georgia, "Times New Roman", Times, serif;
+    margin: 10px 8px;
+}
+.copyright {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #666666;
+    margin-left: 0px;
+    padding-left: 8px;
+    border-top: 1px dashed #999;
+    clear: both;
+}

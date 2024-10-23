@@ -1,0 +1,82 @@
+/* сброс стилей браузера */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1.2;
+}
+ol { 
+  padding-left: 1.4em;
+  list-style: decimal;
+}
+ul {
+  padding-left: 1.4em;
+  list-style: square;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+} 
+/* конец кода сброса стилей браузера */
+html {
+ background: #A9A9A9 url(images/111.jpg) repeat-x;
+}
+body {
+ background-color: rgb(255,255,255);
+ border: 8px solid rgb(0, 0, 0);
+ box-shadow: 0 0 20px 10px rgba(25, 25, 112);
+ max-width: 800px;
+ margin-top: 50px;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 15px;
+}
+h1 {
+ font-size: 2.3em;
+ font-family: algerian, "cursive", cursive, serif;
+ font-weight: normal;
+ text-align:center;
+ letter-spacing: 1px;
+ color: rgb(255, 255, 255);
+ text-transform: uppercase;
+ background: #A9A9A9 url(images/qqq.jpg) repeat-x;
+ padding: 5px 15px 2px 15px;
+ margin: 0 -15px 20px -15px;
+}
+h2 {
+ font-size: 1.5em;
+ font-family: "cursive", cursive, Helvetica, sans-serif;
+ background: #A9A9A9 url(images/qqq.jpg) repeat-x;
+ box-shadow: 0 0 20px 10px rgba(25, 25, 112);
+ color: rgb(255, 255, 255);
+ padding-top: 5px;
+ padding-bottom: 5px;
+ margin: 15px 0 15px 0;
+ overflow: hidden;
+}
+.sidebar {
+ width: 30%;
+ float: right;
+ margin: 20px;
+ background-color: rgb(255, 255, 255);
+ padding: 10px 20px;
+ border: 1px dotted rgb(0,0,0); 
+ border-top: 20px solid rgb(0,0,0);
+ border-radius: 15px;
+ box-shadow: 10px 10px 30px rgba(25, 25, 112);
+}
+.sidebar h2 {
+ border: none;
+ margin-top: 0;
+ padding: 0;
+}

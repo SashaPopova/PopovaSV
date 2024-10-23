@@ -1,0 +1,43 @@
+   html {
+	   padding: 20px;
+	   background-color: maroon;
+	   background-image: url(bg_page2.png);
+   }
+   body {
+	   padding: 40px;
+	   background: url(bg_page.png) repeat-x;
+	   background-color: #3366CC;
+	   margin: 0 auto; /*Выравнивание элемента по центру родителя*/
+	   width: 80%; /*Размер в процентах от всего размера родительского элемента*/
+	   border-radius: 10px; /*Скругление углов*/ 
+	   box-shadow: 25px 25px 25px rgba(0,0,0,0.5); /*Тень от элемента с параметрами положения, 
+	   размытия и цвета*/
+   }
+   p {
+	   padding: 20px;
+	   color: rgb(0,0,180);
+	   font-size: 18px;
+	   font-family: "Pacifico", cursive;
+	   line-height: 150%;
+	   margin-left: 60px;
+   }
+   h2 { /*Задаем параметры заголовка второго уровня*/
+	    font-family: "Playfair Display", serif;
+		color: #BF8F30;
+		font-size: 2.2em;
+		border-bottom: 2px black solid;
+		padding: 0 0 20px 60px;
+		margin: 0;
+		background: url(head-icon.png) no-repeat 10px 25px;
+   }
+   .intro {
+	   color: rgb(40,40,40);
+	   font-family: "Great Vibes", cursive;
+	   font-size: 1.2em;
+	   margin-left: 0;
+	   margin-bottom: 25px;
+   }
+   h1 {
+	   text-align: center;
+   }
+   
