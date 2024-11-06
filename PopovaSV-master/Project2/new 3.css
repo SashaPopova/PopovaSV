@@ -1,0 +1,19 @@
+
+		html {
+			padding: 25px;
+			background-color: #E5F4C3;
+			background-image: url(bg_page2.png)
+		}
+		body{
+			padding: 40px;
+			background: url(bg_page.png) repeat-x;
+			background-color: #CFE994;
+		}
+		p {
+			padding: 20px;
+			color: maroon;
+			font-size: 15px;
+		}
+		h2 {
+		 font-family: "Raleway", sans-serif;
+		}

@@ -1,0 +1,75 @@
+
+		html {
+			padding: 25px;
+			background-color: #c493c1;
+			background-image: url(stars.jpg)
+		}
+		body{
+			padding: 40px;
+			background: url(bg_page.png) repeat-x;
+			background-color:#332e33;
+			margin: 0 auto; /*Выравнивание элемента по центру родителя*/
+			width: 80%; /*Размер в процентах от всего размера родительского элемента*/
+			border-radius: 10px; /*Скругление углов*/
+			box-shadow: 10px -10px 20px rgba(255, 255, 255, 0.5); /*Тень от элемента с параметрами положения, 
+			размытия и цвета*/
+		}
+		p {
+			padding: 20px;
+			color: #ffffff;
+			font-size: 18px;
+			font-family: "Lora", serif;
+			font-optical-sizing: auto;
+			font-weight: <weight>;
+            font-style: normal;
+			line-height: 150%;
+			margin-left: 20px;
+		}
+		h1 {
+		 font-family: "Playwrite GB S", cursive;
+         font-optical-sizing: auto;
+         font-weight: 400;
+         font-style: normal;
+		 color: #ffc78c;
+		 font-size: 2.2em;
+		}
+		h2 {/*Задаем параметры заголовка второго уровня*/
+		 font-family: "Playwrite GB S", cursive;
+         font-optical-sizing: auto;
+         font-weight: <weight>;
+         font-style: normal;
+		 color: #e69745;
+		 font-size: 2.2em;
+		 border-bottom: 6px #c77116 solid;
+		 padding: 0 0 2px 50px;
+		 margin: 50;
+		 background: url(roseee.jpg) no-repeat 10px 10px;
+		}
+		h3 {/*Задаем параметры заголовка второго уровня*/
+		 font-family: "Playwrite GB S", cursive;
+         font-optical-sizing: auto;
+         font-weight: <weight>;
+         font-style: normal;
+		 color: #e69745;
+		 font-size: 2.2em;
+		 border-bottom: 6px #c77116 solid;
+		 padding: 0 0 2px 50px;
+		 margin: 50;
+		 background: url(star.png) no-repeat 10px 10px;
+		}
+		img {
+			margin: 0 auto; /*Выравнивание элемента по центру родителя*/
+		}
+		.intro {
+			color: rgb(40, 40, 40);
+			font-family: "Fascinate Inline", system-ui;
+			font-weight: 400;  
+			font-style: normal;
+			font-size: 2.2em;
+			margin-bottom: 25px;
+		}
+			h1 {
+				text-align: center;
+		 color: #c77116;
+		}
+		
